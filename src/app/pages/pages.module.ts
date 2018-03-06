@@ -17,6 +17,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 // NG2 Charts
 import { ChartsModule } from 'ng2-charts';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
 	declarations:[
@@ -26,7 +28,9 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
 	    Graficas1Component,
 	    IncrementadorComponent,
 	    GraficaDonaComponent,
-	    AccoutSettingsComponent
+	    AccoutSettingsComponent,
+	    PromesasComponent,
+	    RxjsComponent
 	    
 	],
 	exports: [	// exportar los modulos en caso de ocuparse en otros componentes
